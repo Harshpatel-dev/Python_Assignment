@@ -32,7 +32,7 @@ with open('D:\D-48 Harsh Patel\A4\MET_Office_2011_Air_Data.csv' , mode='r')as fi
                     single_file.write(f"{line}\n")
             else:
                 for line in lines:
-                    single_file.write(f"{line}\n")
+                    return_file.write(f"{line}\n")
 
 single_file.close()
 return_file.close()
